@@ -1,0 +1,39 @@
+{
+    "breakfast": {
+        "oatmeal": [
+            "banana",
+            "oatflakes",
+            ["peanut butter", "cocoa"],
+            ["almond milk", "cow milk", "soy milk"]
+        ]
+    },
+    "morning snack": {
+        "fruit & nuts bowl": [
+            "crackers",
+            ["apple", "banana", "pear"],
+            ["almonds", "walnuts", "peanuts"]
+        ]
+    },
+    "lunch": {
+        "poke bowl": [
+            ["brown rice", "quinoa", "black beans"],
+            ["chicken blocks", "eggs", "white cheese"],
+            ["carrot", "bell pepper", "corn"],
+            ["baby spinach", "kale"]
+        ]
+    },
+    "afternoon snack": {
+        "fruit & nuts bowl": [
+            "crackers",
+            ["apple", "banana", "pear"],
+            ["almonds", "walnuts", "peanuts"]
+        ]
+    },   
+    "dinner": {
+        "salad": [
+            ["baby spinach", "kale"],
+            ["onion", "bell pepper", "corn"],
+            ["chicken blocks", "eggs", "white cheese"]
+        ]
+    }
+}
