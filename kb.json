@@ -1,39 +1,60 @@
 {
     "breakfast": {
-        "oatmeal": [
+        "🥣 oatmeal": [
             "banana",
             "oatflakes",
-            ["peanut butter", "cocoa"],
+            ["peanut butter", "cocoa", "blueberries"],
             ["almond milk", "cow milk", "soy milk"]
+        ],
+        "🫐 fruit yogurt": [
+            "yogurt",
+            "oatflakes",
+            ["strawberries", "blueberries", "blackberries", "pineapple", "peach", "mango"]
         ]
     },
     "morning snack": {
-        "fruit & nuts bowl": [
+        "🍎 fruit & nuts bowl": [
             "crackers",
-            ["apple", "banana", "pear"],
-            ["almonds", "walnuts", "peanuts"]
+            ["apple", "banana", "pear", "orange", "strawberries", "grapes", "peach"],
+            ["almonds", "walnuts", "cashew nuts", "peanuts"]
+        ],
+        "🥤 smoothie": [
+            "banana",
+            ["almond milk", "cow milk", "soy milk"],
+            ["strawberries", "blueberries", "blackberries", "pineapple", "peach", "mango"]
         ]
     },
     "lunch": {
-        "poke bowl": [
-            ["brown rice", "quinoa", "black beans"],
-            ["chicken blocks", "eggs", "white cheese"],
+        "🥘 macro bowl": [
+            ["brown rice", "quinoa", "black beans", "red beans", "potatoes"],
+            ["chicken blocks", "boiled eggs", "white cheese", "tofu", "cheese", "salmon"],
             ["carrot", "bell pepper", "corn"],
-            ["baby spinach", "kale"]
+            ["baby spinach", "kale", "iceberg lettuce", "rucola"],
+            ["pumpkin seeds", "sunflower seeds", "cashew nuts", "peanuts"]
         ]
     },
     "afternoon snack": {
-        "fruit & nuts bowl": [
+        "🍎 fruit & nuts bowl": [
             "crackers",
-            ["apple", "banana", "pear"],
+            ["apple", "banana", "pear", "orange", "strawberries", "grapes", "peach"],
             ["almonds", "walnuts", "peanuts"]
+        ],
+        "🥤 smoothie": [
+            "banana",
+            ["almond milk", "cow milk", "soy milk"],
+            ["strawberries", "blueberries", "blackberries", "pineapple", "peach", "mango"]
+        ],
+        "🥕 veggie sticks": [
+            ["carrot", "cucumber"],
+            ["hummus", "guacamole", "tzatziki"]
         ]
     },   
     "dinner": {
-        "salad": [
-            ["baby spinach", "kale"],
+        "🥗 salad": [
+            ["baby spinach", "kale", "iceberg lettuce", "rucola"],
             ["onion", "bell pepper", "corn"],
-            ["chicken blocks", "eggs", "white cheese"]
+            ["chicken blocks", "boiled eggs", "white cheese", "tofu", "cheese"],
+            ["pumpkin seeds", "sunflower seeds", "cashew nuts", "peanuts"]
         ]
     }
 }
