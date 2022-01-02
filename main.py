@@ -25,7 +25,7 @@ if cols[0].button('generate new plan'):
     st.experimental_rerun()
 
 meals = ['breakfast', 'morning snack', 'lunch', 'afternoon snack', 'dinner']
-plan = generate_plan(mode)
+plan = generate_prune_plan(mode)
 
 cols = st.columns(6)
 for day_idx, day in enumerate(calendar.day_abbr[0:6]):

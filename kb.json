@@ -6,7 +6,7 @@
             ["peanut butter", "cocoa", "blueberries"],
             ["almond milk", "cow milk", "soy milk"]
         ],
-        "🫐 fruit yogurt": [
+        "🫐 fruit & yogurt": [
             "yogurt",
             "oatflakes",
             ["strawberries", "blueberries", "blackberries", "pineapple", "peach", "mango"]
@@ -17,11 +17,6 @@
             "crackers",
             ["apple", "banana", "pear", "orange", "strawberries", "grapes", "peach"],
             ["almonds", "walnuts", "cashew nuts", "peanuts"]
-        ],
-        "🥤 smoothie": [
-            "banana",
-            ["almond milk", "cow milk", "soy milk"],
-            ["strawberries", "blueberries", "blackberries", "pineapple", "peach", "mango"]
         ]
     },
     "lunch": {
@@ -38,11 +33,6 @@
             "crackers",
             ["apple", "banana", "pear", "orange", "strawberries", "grapes", "peach"],
             ["almonds", "walnuts", "peanuts"]
-        ],
-        "🥤 smoothie": [
-            "banana",
-            ["almond milk", "cow milk", "soy milk"],
-            ["strawberries", "blueberries", "blackberries", "pineapple", "peach", "mango"]
         ],
         "🥕 veggie sticks": [
             ["carrot", "cucumber"],

@@ -1,6 +1,20 @@
 import json
 import random
 
+def generate_prune_plan(mode):
+    plans = [generate_plan(mode) for e in range(100)]
+    prop_set = []
+
+    for plan in plans:
+        all_ingredients = []
+
+        for day in plan:
+            all_ingredients += [e[1] for e in day.values()]
+
+        all_ingredients = [elem for sublist in all_ingredients for elem in sublist]
+        prop_set += [len(set(all_ingredients)) / len(all_ingredients)]
+
+    return plans[prop_set.index(min(prop_set))]
 
 def generate_plan(mode):
     day_plans = []
