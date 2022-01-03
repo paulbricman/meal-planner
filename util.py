@@ -1,6 +1,16 @@
 import json
 import random
 
+
+def mutate_probabilistic_fasting(plan):
+    for day_idx, day in enumerate(plan):
+        for meal, choice in day.items():
+            if random.uniform(0, 1) < 0.05:
+                plan[day_idx][meal] = ('❌ fasting', [])
+            
+    return plan
+
+
 def generate_prune_plan(mode):
     plans = [generate_plan(mode) for e in range(100)]
     prop_set = []
@@ -21,15 +31,17 @@ def generate_plan(mode):
     
     if mode == '3x2+1':
         day_plans = [generate_day_plan(), generate_day_plan(), generate_day_plan()]
-        day_plans.insert(1, day_plans[0])
-        day_plans.insert(3, day_plans[2])
-        day_plans.insert(5, day_plans[4])
+        day_plans.insert(1, day_plans[0].copy())
+        day_plans.insert(3, day_plans[2].copy())
+        day_plans.insert(5, day_plans[4].copy())
     elif mode == '2x3+1':
         day_plans = [generate_day_plan(), generate_day_plan()]
-        day_plans.insert(1, day_plans[0])
-        day_plans.insert(2, day_plans[0])
-        day_plans.insert(4, day_plans[3])
-        day_plans.insert(5, day_plans[3])
+        day_plans.insert(1, day_plans[0].copy())
+        day_plans.insert(2, day_plans[0].copy())
+        day_plans.insert(4, day_plans[3].copy())
+        day_plans.insert(5, day_plans[3].copy())
+
+    day_plans = mutate_probabilistic_fasting(day_plans)
 
     return day_plans
 
