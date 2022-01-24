@@ -3,8 +3,8 @@
     "🥣 oatmeal": [
       "banana",
       "oatflakes",
-      ["peanut butter", "cocoa", "blueberries"],
-      ["almond milk", "cow milk", "soy milk"]
+      "peanut butter",
+      ["almond milk", "soy milk"]
     ],
     "🫐 fruit & yogurt": [
       "yogurt",
@@ -85,14 +85,11 @@
       ["apple", "banana", "pear", "orange", "strawberries", "grapes", "peach"],
       ["almonds", "walnuts", "peanuts"]
     ],
-    "🥕 veggie sticks": [
-      ["carrot", "cucumber"],
-      ["hummus", "guacamole", "tzatziki"]
-    ]
+    "🥕 veggie sticks": ["carrot", ["hummus", "guacamole", "tzatziki"]]
   },
   "dinner": {
     "🥗 salad": [
-      ["baby spinach", "kale", "iceberg lettuce", "rucola"],
+      ["baby spinach", "iceberg lettuce", "rucola"],
       ["onion", "bell pepper", "corn"],
       ["chicken blocks", "boiled eggs", "white cheese", "tofu", "cheese"],
       ["pumpkin seeds", "sunflower seeds", "cashew nuts", "peanuts"]
