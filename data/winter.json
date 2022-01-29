@@ -3,41 +3,34 @@
     "🥣 oatmeal": [
       "banana",
       "oatflakes",
+      ["crackers", ""],
       "peanut butter",
-      ["almond milk", "soy milk"]
+      ["almond milk", "soy milk", "cow milk"]
     ],
     "🫐 fruit & yogurt": [
       "yogurt",
       "oatflakes",
-      [
-        "strawberries",
-        "blueberries",
-        "blackberries",
-        "pineapple",
-        "peach",
-        "mango"
-      ]
+      ["crackers", ""],
+      ["strawberries", "blueberries", "pineapple"]
     ]
   },
   "morning snack": {
     "🍎 fruit & nuts bowl": [
-      "crackers",
-      ["apple", "banana", "pear", "orange", "strawberries", "grapes", "peach"],
+      ["crackers", "rice crackers", "corn crackers"],
+      ["apple", "banana", "pear", "orange", "grapes", "peach"],
       ["almonds", "walnuts", "cashew nuts", "peanuts"]
     ]
   },
   "lunch": {
     "🥘 macro bowl": [
-      ["brown rice", "quinoa", "wholegrain penne", "wholegrain fussili"],
       [
-        "chicken blocks",
-        "boiled eggs",
-        "white cheese",
-        "tofu",
-        "cheese",
-        "salmon",
-        "minced beef"
+        "brown rice",
+        "quinoa",
+        "couscous",
+        "wholegrain penne",
+        "wholegrain fussili"
       ],
+      ["chicken blocks", "boiled eggs", "white cheese", "tofu", "cheese"],
       ["carrot", "bell pepper", "corn", "red beans", "black beans"],
       ["baby spinach", "kale", "iceberg lettuce", "rucola"],
       ["pumpkin seeds", "sunflower seeds", "cashew nuts", "peanuts"]
@@ -56,7 +49,7 @@
       ["baby spinach", "kale", "iceberg lettuce", "rucola"]
     ],
     "🥚 frittata": [
-      ["eggs"],
+      "eggs",
       ["white cheese", "tofu", "cheese"],
       ["carrot", "bell pepper", "corn"],
       ["red beans", "black beans"],
@@ -70,9 +63,7 @@
         "chicken blocks",
         "boiled eggs",
         "white cheese",
-        "tofu",
         "cheese",
-        "salmon",
         "minced beef"
       ],
       ["carrot", "bell pepper", "corn"],
@@ -81,11 +72,10 @@
   },
   "afternoon snack": {
     "🍎 fruit & nuts bowl": [
-      "crackers",
+      ["crackers", "rice crackers", "corn crackers"],
       ["apple", "banana", "pear", "orange", "strawberries", "grapes", "peach"],
-      ["almonds", "walnuts", "peanuts"]
-    ],
-    "🥕 veggie sticks": ["carrot", ["hummus", "guacamole", "tzatziki"]]
+      ["almonds", "walnuts", "cashew nuts", "peanuts"]
+    ]
   },
   "dinner": {
     "🥗 salad": [

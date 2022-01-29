@@ -12,7 +12,7 @@ def mutate_probabilistic_fasting(plan):
 
 
 def generate_prune_plan(mode):
-    plans = [generate_plan(mode) for e in range(10)]
+    plans = [generate_plan(mode) for e in range(1)]
     prop_set = []
 
     for plan in plans:
@@ -43,8 +43,8 @@ def generate_plan(mode):
         day_plans.insert(2, day_plans[0].copy())
         day_plans.insert(4, day_plans[3].copy())
         day_plans.insert(5, day_plans[3].copy())
-
-    day_plans = mutate_probabilistic_fasting(day_plans)
+    elif mode == '1x1':
+        day_plans = [generate_day_plan()]
 
     return day_plans
 
@@ -52,7 +52,7 @@ def generate_plan(mode):
 def generate_day_plan():
     day_plan = {}
 
-    kb = json.load(open('kb.json'))
+    kb = json.load(open('data/winter.json'))
     for meal in kb.keys():
         meal_choice = random.choice(list(kb[meal].keys()))
         meal_ingredients = []
@@ -61,7 +61,9 @@ def generate_day_plan():
             if isinstance(ingredient, str):
                 meal_ingredients += [ingredient]
             else:
-                meal_ingredients += [random.choice(ingredient)]
+                choice = random.choice(ingredient)
+                if choice != '':
+                    meal_ingredients += [choice]
 
         day_plan[meal] = (meal_choice, meal_ingredients)
 
