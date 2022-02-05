@@ -16,7 +16,7 @@
   },
   "morning snack": {
     "🍎 fruit & nuts bowl": [
-      ["crackers", "rice crackers", "corn crackers"],
+      ["crackers", "corn crackers"],
       ["apple", "banana", "pear", "orange", "grapes"],
       ["almonds", "walnuts", "cashew nuts", "peanuts"]
     ]
@@ -72,7 +72,7 @@
   },
   "afternoon snack": {
     "🍎 fruit & nuts bowl": [
-      ["crackers", "rice crackers", "corn crackers"],
+      ["crackers", "corn crackers"],
       ["apple", "banana", "pear", "orange", "strawberries", "grapes", "peach"],
       ["almonds", "walnuts", "cashew nuts", "peanuts"]
     ]
