@@ -25,7 +25,7 @@ if cols[0].button('generate new plan'):
     st.experimental_rerun()
 
 st.markdown('---')
-meals = ['breakfast', 'morning snack', 'lunch', 'afternoon snack', 'dinner']
+meals = ['breakfast', 'lunch', 'dinner', 'morning snack']
 plan = generate_prune_plan('1x1')
 
 for meal in meals:

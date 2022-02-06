@@ -52,9 +52,7 @@
       "eggs",
       ["white cheese", "tofu", "cheese"],
       ["carrot", "bell pepper", "corn"],
-      ["red beans", "black beans"],
-      ["baby spinach", "kale", "iceberg lettuce", "rucola"],
-      ["pumpkin seeds", "sunflower seeds", "cashew nuts", "peanuts"]
+      ["baby spinach", "kale", "iceberg lettuce", "rucola"]
     ],
     "🌯 wrap": [
       ["wholegrain tortilla", "corn tortilla"],
@@ -68,13 +66,6 @@
       ],
       ["carrot", "bell pepper", "corn"],
       ["baby spinach", "kale", "iceberg lettuce", "rucola"]
-    ]
-  },
-  "afternoon snack": {
-    "🍎 fruit & nuts bowl": [
-      ["crackers", "corn crackers"],
-      ["apple", "banana", "pear", "orange", "strawberries", "grapes", "peach"],
-      ["almonds", "walnuts", "cashew nuts", "peanuts"]
     ]
   },
   "dinner": {
