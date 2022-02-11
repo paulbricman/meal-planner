@@ -37,14 +37,7 @@
     ],
     "🥔 stamppot": [
       ["potatoes"],
-      [
-        "chicken blocks",
-        "boiled eggs",
-        "white cheese",
-        "tofu",
-        "cheese",
-        "minced beef"
-      ],
+      ["chicken blocks", "boiled eggs", "white cheese", "tofu", "minced beef"],
       ["carrot", "corn", "red beans", "black beans"],
       ["baby spinach", "kale", "iceberg lettuce", "rucola"]
     ],
