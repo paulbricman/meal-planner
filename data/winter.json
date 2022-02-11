@@ -16,7 +16,7 @@
   },
   "morning snack": {
     "🍎 fruit & nuts bowl": [
-      ["crackers", "corn crackers"],
+      ["wholegrain crackers", "corn crackers"],
       ["apple", "banana", "pear", "orange", "grapes"],
       ["almonds", "walnuts", "cashew nuts", "peanuts"]
     ]
@@ -30,43 +30,58 @@
         "wholegrain penne",
         "wholegrain fussili"
       ],
-      ["chicken blocks", "boiled eggs", "white cheese", "tofu", "cheese"],
-      ["carrot", "bell pepper", "corn", "red beans", "black beans"],
-      ["baby spinach", "kale", "iceberg lettuce", "rucola"],
-      ["pumpkin seeds", "sunflower seeds", "cashew nuts", "peanuts"]
-    ],
-    "🥔 stamppot": [
-      ["potatoes"],
-      ["chicken blocks", "boiled eggs", "white cheese", "tofu", "minced beef"],
-      ["carrot", "corn", "red beans", "black beans"],
-      ["baby spinach", "kale", "iceberg lettuce", "rucola"]
-    ],
-    "🥚 frittata": [
-      "eggs",
-      ["white cheese", "tofu", "cheese"],
-      ["carrot", "bell pepper", "corn"],
-      ["baby spinach", "kale", "iceberg lettuce", "rucola"]
-    ],
-    "🌯 wrap": [
-      ["wholegrain tortilla", "corn tortilla"],
-      ["red beans", "black beans"],
       [
         "chicken blocks",
         "boiled eggs",
-        "white cheese",
-        "cheese",
+        "falafel",
+        "veggie balls",
+        "tofu",
         "minced beef"
       ],
-      ["carrot", "bell pepper", "corn"],
-      ["baby spinach", "kale", "iceberg lettuce", "rucola"]
+      ["red beans", "corn"],
+      ["bell pepper", "onion", "tomato"],
+      ["pumpkin seeds", "sunflower seeds"]
+    ],
+    "🥔 stamppot": [
+      "potatoes",
+      [
+        "chicken blocks",
+        "boiled eggs",
+        "falafel",
+        "veggie balls",
+        "tofu",
+        "minced beef"
+      ],
+      ["red beans", "corn"]
+    ],
+    "🥚 frittata": [
+      "eggs",
+      ["feta", "cheese"],
+      ["red beans", "corn"],
+      ["bell pepper", "tomato"]
+    ],
+    "🌯 wrap": [
+      ["wholegrain tortilla", "corn tortilla"],
+      ["red beans", "corn"],
+      [
+        "boiled eggs",
+        "chicken blocks",
+        "minced beef",
+        "falafel",
+        "veggie balls",
+        "tofu"
+      ],
+      ["bell pepper", "onion"],
+      ["baby spinach", "iceberg", "rucola"]
     ]
   },
   "dinner": {
     "🥗 salad": [
-      ["baby spinach", "iceberg lettuce", "rucola"],
-      ["onion", "bell pepper", "corn"],
-      ["chicken blocks", "boiled eggs", "white cheese", "tofu", "cheese"],
-      ["pumpkin seeds", "sunflower seeds", "cashew nuts", "peanuts"]
+      ["quinoa", "couscous"],
+      ["baby spinach", "iceberg", "rucola"],
+      ["onion", "bell pepper"],
+      ["feta", "tofu", "mozzarella"],
+      ["pumpkin seeds", "sunflower seeds"]
     ]
   }
 }
