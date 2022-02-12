@@ -4,8 +4,7 @@ from util import *
 
 
 st.set_page_config(
-    page_title='🥗 meal planner',
-    layout='wide')
+    page_title='🥗 meal planner')
 
 
 hide_streamlit_style = '''
@@ -17,11 +16,9 @@ hide_streamlit_style = '''
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.markdown('# 🥗 meal planner')
 
-cols = st.columns(2)
+st.session_state['season'] = st.selectbox('season', ['winter', 'summer'])
 
-st.session_state['season'] = cols[0].selectbox('season', ['winter', 'summer'])
-
-if cols[0].button('generate new plan'):
+if st.button('generate new plan'):
     st.experimental_rerun()
 
 st.markdown('---')
