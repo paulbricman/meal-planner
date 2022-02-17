@@ -11,13 +11,13 @@
       "yogurt",
       "oatflakes",
       ["crackers", ""],
-      ["strawberries", "blueberries", "pineapple"]
+      ["strawberries", "blueberries", "pineapple", "mango"]
     ]
   },
   "morning snack": {
     "🍎 fruit & nuts bowl": [
-      ["wholegrain crackers", "corn crackers"],
-      ["apple", "banana", "pear", "orange", "grapes"],
+      ["wholegrain crackers", "corn crackers", "wholegrain rounds"],
+      ["apple", "pear", "orange", "grapes"],
       ["almonds", "walnuts", "cashew nuts", "peanuts"]
     ]
   },
@@ -38,7 +38,7 @@
         "tofu",
         "minced beef"
       ],
-      ["red beans", "corn"],
+      ["red beans", "black beans", "lentils", "corn"],
       ["bell pepper", "onion", "tomato"],
       ["pumpkin seeds", "sunflower seeds"]
     ],
@@ -52,17 +52,17 @@
         "tofu",
         "minced beef"
       ],
-      ["red beans", "corn"]
+      ["red beans", "black beans", "lentils", "corn"]
     ],
     "🥚 frittata": [
       "eggs",
-      ["feta", "cheese"],
+      ["feta", "cheese", "mozzarella"],
       ["red beans", "corn"],
       ["bell pepper", "tomato"]
     ],
     "🌯 wrap": [
       ["wholegrain tortilla", "corn tortilla"],
-      ["red beans", "corn"],
+      ["red beans", "black beans", "lentils", "corn"],
       [
         "boiled eggs",
         "chicken blocks",
@@ -77,7 +77,6 @@
   },
   "dinner": {
     "🥗 salad": [
-      ["quinoa", "couscous"],
       ["baby spinach", "iceberg", "rucola"],
       ["onion", "bell pepper"],
       ["feta", "tofu", "mozzarella"],
