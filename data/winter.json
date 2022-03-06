@@ -4,7 +4,7 @@
       "banana",
       "oatflakes",
       ["crackers", ""],
-      "peanut butter",
+      ["peanut butter", "cocoa"],
       ["almond milk", "soy milk", "cow milk"]
     ],
     "🫐 fruit & yogurt": [
@@ -18,7 +18,7 @@
     "🍎 fruit & nuts bowl": [
       ["wholegrain crackers", "corn crackers", "wholegrain rounds"],
       ["apple", "pear", "orange", "grapes"],
-      ["almonds", "walnuts", "cashew nuts", "peanuts"]
+      ["almonds", "walnuts", "cashew nuts", "peanuts", "brazil nuts"]
     ]
   },
   "lunch": {
@@ -38,8 +38,8 @@
         "tofu",
         "minced beef"
       ],
-      ["red beans", "black beans", "lentils", "corn"],
-      ["bell pepper", "onion", "tomato"],
+      ["red beans", "black beans", "green beans", "lentils", "corn"],
+      ["bell pepper", "onion", "broccoli"],
       ["pumpkin seeds", "sunflower seeds"]
     ],
     "🥔 stamppot": [
@@ -52,7 +52,7 @@
         "tofu",
         "minced beef"
       ],
-      ["red beans", "black beans", "lentils", "corn"]
+      ["red beans", "black beans", "green beans", "lentils", "corn"]
     ],
     "🥚 frittata": [
       "eggs",
@@ -62,7 +62,7 @@
     ],
     "🌯 wrap": [
       ["wholegrain tortilla", "corn tortilla"],
-      ["red beans", "black beans", "lentils", "corn"],
+      ["red beans", "black beans", "green beans", "lentils", "corn"],
       [
         "boiled eggs",
         "chicken blocks",
@@ -77,10 +77,12 @@
   },
   "dinner": {
     "🥗 salad": [
+      ["wholegrain tortilla", ""],
       ["baby spinach", "iceberg", "rucola"],
-      ["onion", "bell pepper"],
-      ["feta", "tofu", "mozzarella"],
-      ["pumpkin seeds", "sunflower seeds"]
+      ["onion", "bell pepper", "avocado"],
+      ["feta", "tofu", "mozzarella", "veggie balls", "falafel balls"],
+      ["pumpkin seeds", "sunflower seeds", "chia seeds"],
+      "tomato"
     ]
   }
 }
