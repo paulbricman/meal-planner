@@ -4,14 +4,15 @@
       "banana",
       "oatflakes",
       ["crackers", ""],
-      ["peanut butter", "cocoa"],
+      ["peanut butter", "cocoa", "apple sauce"],
       ["almond milk", "soy milk", "cow milk"]
     ],
     "🫐 fruit & yogurt": [
       "yogurt",
       "oatflakes",
       ["crackers", ""],
-      ["strawberries", "blueberries", "pineapple", "mango"]
+      ["strawberries", "blueberries"],
+      ["honey", ""]
     ]
   },
   "morning snack": {
