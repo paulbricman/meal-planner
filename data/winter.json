@@ -13,11 +13,18 @@
       ["crackers", ""],
       ["strawberries", "blueberries"],
       ["honey", ""]
+    ],
+    "🍅 bruschetta": [
+      "bread",
+      "tomato",
+      "basil",
+      "garlic",
+      ["mozzarella", "feta", "eggs"]
     ]
   },
   "morning snack": {
     "🍎 fruit & nuts bowl": [
-      ["wholegrain crackers", "corn crackers", "wholegrain rounds"],
+      ["wholegrain crackers", "wholegrain rounds"],
       ["apple", "pear", "orange", "grapes"],
       ["almonds", "walnuts", "cashew nuts", "peanuts", "brazil nuts"]
     ]
@@ -33,46 +40,39 @@
       ],
       [
         "chicken blocks",
-        "boiled eggs",
+        "eggs",
         "falafel",
         "veggie balls",
         "tofu",
         "minced beef"
       ],
       ["red beans", "black beans", "green beans", "lentils", "corn"],
-      ["bell pepper", "onion", "broccoli"],
-      ["pumpkin seeds", "sunflower seeds"]
+      ["bell pepper", "onion", "broccoli", "avocado"],
+      ["pumpkin seeds", "sunflower seeds", "chia seeds"]
     ],
     "🥔 stamppot": [
-      "potatoes",
-      [
-        "chicken blocks",
-        "boiled eggs",
-        "falafel",
-        "veggie balls",
-        "tofu",
-        "minced beef"
-      ],
+      ["potatoes", "sweet potatoes"],
+      ["chicken blocks", "falafel", "veggie balls", "tofu", "minced beef"],
       ["red beans", "black beans", "green beans", "lentils", "corn"]
     ],
     "🥚 frittata": [
       "eggs",
       ["feta", "cheese", "mozzarella"],
-      ["red beans", "corn"],
-      ["bell pepper", "tomato"]
+      ["red beans", "black beans", "green beans", "lentils", "corn"],
+      ["bell pepper", "tomato", "avocado"]
     ],
     "🌯 wrap": [
       ["wholegrain tortilla", "corn tortilla"],
       ["red beans", "black beans", "green beans", "lentils", "corn"],
       [
-        "boiled eggs",
+        "eggs",
         "chicken blocks",
         "minced beef",
         "falafel",
         "veggie balls",
         "tofu"
       ],
-      ["bell pepper", "onion"],
+      ["bell pepper", "onion", "avocado"],
       ["baby spinach", "iceberg", "rucola"]
     ]
   },
