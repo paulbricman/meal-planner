@@ -47,7 +47,7 @@
         "minced beef"
       ],
       ["red beans", "black beans", "green beans", "lentils", "corn"],
-      ["bell pepper", "onion", "broccoli", "avocado"],
+      ["bell pepper", "onion", "broccoli", "avocado", "carrot"],
       ["pumpkin seeds", "sunflower seeds", "chia seeds"]
     ],
     "🥔 stamppot": [
@@ -59,7 +59,7 @@
       "eggs",
       ["feta", "cheese", "mozzarella"],
       ["red beans", "black beans", "green beans", "lentils", "corn"],
-      ["bell pepper", "tomato", "avocado"]
+      ["bell pepper", "tomato", "avocado", "carrot"]
     ],
     "🌯 wrap": [
       ["wholegrain tortilla", "corn tortilla"],
@@ -72,8 +72,9 @@
         "veggie balls",
         "tofu"
       ],
-      ["bell pepper", "onion", "avocado"],
-      ["baby spinach", "iceberg", "rucola"]
+      ["bell pepper", "onion", "avocado", "carrot"],
+      ["baby spinach", "iceberg", "rucola"],
+      ["lemon", "lime"]
     ]
   },
   "dinner": {
@@ -83,7 +84,8 @@
       ["onion", "bell pepper", "avocado"],
       ["feta", "tofu", "mozzarella", "veggie balls", "falafel balls"],
       ["pumpkin seeds", "sunflower seeds", "chia seeds"],
-      "tomato"
+      "tomato",
+      ["lemon", "lime"]
     ]
   }
 }
