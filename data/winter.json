@@ -13,13 +13,6 @@
       ["crackers", ""],
       ["strawberries", "blueberries"],
       ["honey", ""]
-    ],
-    "🍅 bruschetta": [
-      "bread",
-      "tomato",
-      "basil",
-      "garlic",
-      ["mozzarella", "feta", "eggs"]
     ]
   },
   "morning snack": {
@@ -70,6 +63,13 @@
       ["bell pepper", "onion", "avocado", "carrot"],
       ["baby spinach", "iceberg", "rucola"],
       ["lemon", "lime"]
+    ],
+    "🍅 bruschetta": [
+      "bread",
+      "tomato",
+      "basil",
+      "garlic",
+      ["mozzarella", "feta", "eggs"]
     ]
   },
   "dinner": {
